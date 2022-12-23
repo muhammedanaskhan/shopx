@@ -1,9 +1,13 @@
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
-        jbhvdc
+    <div className="app">
+        {/*HEADER*/}
+        <Header/>
+        {/*HOME*/}
+        
     </div>
   );
 }
