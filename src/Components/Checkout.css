@@ -9,6 +9,18 @@
     width: 100%;
 }
 
+.checkout__left{
+    width: 75%;
+}
+
+.checkout__right{
+    width: 25%;
+    margin-left: 15px;
+}
+
+.checkout__ad{
+    max-width: 900px;
+}
 .checkout__title{
     margin-right: 10px;
     padding: 10px;
