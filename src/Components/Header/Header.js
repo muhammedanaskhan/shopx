@@ -20,10 +20,14 @@ function Header() {
               <SearchIcon className='header__searchIcon'></SearchIcon>
             </div>
             <div className="header__nav">
+
+            <Link to="/login">
               <div className="header__option">
                 <div className="header__optionLineOne">Hello</div>
                 <div className="header__optionLineTwo">Sign in</div>
               </div>
+            </Link>
+
               <div className="header__option">
                 <div className="header__optionLineOne">Returns</div>
                 <div className="header__optionLineTwo">& Orders</div>
