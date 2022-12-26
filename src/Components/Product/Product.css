@@ -33,13 +33,18 @@
   
   .product > button {
     background: #00a2ff;
-    
     margin-top: 10px;
     padding: 10px 20px;
     border: none;
-    /*border: 1px solid;
-    border-color: #a88734 #9c7e31 #846a29;*/
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+  }
+
+  .product > button:hover {
+    background-color: white;
+    transition: background-color 200ms;
+    transform: scale(0.98);
   }
   
   .product__price {

@@ -25,6 +25,12 @@
     height: 30px;
 }
 
+.subtotal > button:hover{
+    background-color: white;
+    transition: background-color 200ms;
+    transform: scale(0.9);
+}
+
 .subtotal__gift{
     display: flex;
     align-items: center;

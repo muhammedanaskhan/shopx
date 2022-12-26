@@ -60,6 +60,12 @@
     margin-top: 10px;
 }
 
+.login__signInButton:hover{
+    background-color: white;
+    transition: background-color 200ms;
+    transform: scale(0.98);
+}
+
 .login__registerButton{
     border-radius: 2px;
     width: 100%;
