@@ -4,6 +4,7 @@ Reducer handles all the events, dispatch actions on adding , removing to/from ba
 
 export const initialState = {
     basket : [],
+    user: null
 };
 
 //selector, .reduce() iterates over items and addUp the price
@@ -37,6 +38,12 @@ const reducer = (state,action) => {
             return{
                 ...state,
                 basket: newBasket
+            }
+
+        case 'SET_USER':
+            return{
+                ...state,
+                user: action.user
             }
 
 
