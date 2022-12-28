@@ -4,10 +4,11 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Checkout from './Components/CheckOut/Checkout';
-import Login from './Components/Login';
+import Login from './Components/Login/Login';
 import { useEffect } from 'react';
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
+import Payment from './Components/Payment';
 
 function App() {
 
@@ -41,7 +42,8 @@ function App() {
         <Routes>
           <Route path='/' element={[<Home />]}/>
           <Route path='/checkout' element={[<Checkout/>]}/> 
-          <Route path='/login' element={[<Login/>]}></Route>     
+          <Route path='/login' element={[<Login/>]}></Route>   
+          <Route path='/payment' element={[<Payment/>]}></Route>  
         </Routes>
 
       </div>
@@ -50,3 +52,6 @@ function App() {
 }
 
 export default App;
+
+
+// add react flip  +move
