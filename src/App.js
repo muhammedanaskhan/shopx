@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Checkout from './Components/CheckOut/Checkout';
+import  Orders from './Components/Orders/Orders'
 import Login from './Components/Login/Login';
 import { useEffect } from 'react';
 import { auth } from './firebase';
@@ -45,6 +46,7 @@ function App() {
       <Header />
         <Routes>
           <Route path='/' element={[<Home />]}/>
+          <Route path='/orders' element={[<Orders/>]}></Route>
           <Route path='/checkout' element={[<Checkout/>]}/> 
           <Route path='/login' element={[<Login/>]}></Route>   
           <Route path='/payment' 
